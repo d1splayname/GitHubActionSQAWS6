@@ -37,17 +37,23 @@ We will use GitHub Actions to implement CI, catching issues early and maintainin
     - `scripts\verfification.py` : Verfification script
     - `scripts\validation.py`    : Validation script
     - `.github/workflows/github-actions-SQAdemo.yml` : GitHub Actions workflow file for automating CI.
-
+        More on GitHub action: GitHub Actions Quickstart](https://docs.github.com/en/actions/get-started/quickstart)
 
 ### Assignment 1 (Post Lab Experience) 
-
+- Create a new public repo. Download all codes and use as template code.
+- Comment Run Validation job in .yml file, update `test_cases.json` for B and C, and push
+-  Take screen shots of example build 
+- Update expected_structure.json, comment out Run Validation job in `.yml` file and push
+- Take screen shots of example build
+  
 
 
 
 
 ### Rubric
-- Python source code [25%]
-- Python test code [25%]
-- Examples of test case failures [25%]
-- Examples of test case successes [25%]
+- Add test cases for B and C , run verification code [15%]
+- Update expected_structure.json and run validation [15%]
+- Examples of build failures [25%]
+- Examples of build successes [25%]
+- Your analysis of build failure and how you solved it to pass in CI
 
