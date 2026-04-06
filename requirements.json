@@ -4,5 +4,14 @@
     "parent": "REQ-HAZ-001",
     "description": "Hazard analysis shall include biological hazards",
     "source": "117.130(a)"
+  },
+
+  {
+    "input": "Regulation B text",
+    "expected_output": "Parsed structure B"
+  },
+  {
+    "input": "Regulation C text",
+    "expected_output": "Parsed structure C"
   }
 ]
