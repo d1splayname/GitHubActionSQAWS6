@@ -1,7 +1,24 @@
 [
-    {
-      "test_id": "TC-HAZ-001A",
-      "requirement_id": "REQ-HAZ-001A"
-    }
-  ]
-  
+{
+  "test_id": "TC-HAZ-001A",
+  "requirement_id": "REQ-HAZ-001A",
+  "description": "Test parsing for hazard regulation A",
+  "source": "CFR",
+  "input": "Hazard regulation A text",
+  "expected_output": "Parsed hazard structure A"
+},
+  {
+    "requirement_id": "REQ-B",
+    "description": "Test parsing for regulation B",
+    "source": "CFR",
+    "input": "Regulation B text",
+    "expected_output": "Parsed structure B"
+  },
+  {
+    "requirement_id": "REQ-C",
+    "description": "Test parsing for regulation C",
+    "source": "CFR",
+    "input": "Regulation C text",
+    "expected_output": "Parsed structure C"
+  }
+]
