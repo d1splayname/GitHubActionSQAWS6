@@ -5,12 +5,12 @@
     "source": "CFR"
   },
   {
-    "requirement_id": "REQ-B",
+    "requirement_id": "REQ-REG-002B",
     "description": "System shall parse regulation B",
     "source": "CFR"
   },
   {
-    "requirement_id": "REQ-C",
+    "requirement_id": "REQ-REG-003C",
     "description": "System shall parse regulation C",
     "source": "CFR"
   }
